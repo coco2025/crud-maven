@@ -35,7 +35,7 @@ if(mens!=null){
 	m=mens;
 }
 %>
-<h1  align="center">
+<h1  align="center" style="color:blue;">
 <%=m%>
 </h1>
 </body>
