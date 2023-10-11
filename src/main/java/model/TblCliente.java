@@ -24,9 +24,7 @@ public class TblCliente implements Serializable {
 	private String email;
 
 	@Temporal(TemporalType.DATE)
-
-
-		private Date fechanac;
+	private Date fechanac;
 
 	private String nombre;
 

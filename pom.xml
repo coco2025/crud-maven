@@ -48,6 +48,15 @@ https://jar-download.com/artifacts/com.ethlo.persistence.tools/eclipselink-maven
 	<version>2.7.1</version>
 </dependency>
 
+<!-- 
+https://mvnrepository.com/artifact/com.smartnews/maven-jpa-entity-generator-plugin/0.99.9
+ -->
+
+   <dependency>
+    <groupId>com.smartnews</groupId>
+    <artifactId>maven-jpa-entity-generator-plugin</artifactId>
+    <version>0.99.9</version>
+</dependency>
     
   </dependencies>
   <build>

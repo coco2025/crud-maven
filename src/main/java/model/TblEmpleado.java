@@ -31,7 +31,7 @@ public class TblEmpleado implements Serializable {
 	private String sexo;
 
 	//bi-directional many-to-one association to TblTipoemp
-	@ManyToOne(optional=false,cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	@ManyToOne
 	@JoinColumn(name="idtipoemp")
 	private TblTipoemp tblTipoemp;
 
